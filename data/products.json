@@ -1,0 +1,80 @@
+[
+  {
+    "id": "v1",
+    "title": "Slow Mornings",
+    "artist": "Dust & Vinyl",
+    "format": "Vinyl LP",
+    "genre": "Lo-Fi",
+    "price": 3200,
+    "compareAt": null,
+    "cover": "v1.svg",
+    "description": "A warm, dust-caked lo-fi record built for quiet mornings — tape hiss, soft piano loops, and rain-on-glass percussion throughout.",
+    "details": ["180g heavyweight vinyl", "Gatefold sleeve", "Includes digital download code", "9 tracks, 38 minutes"],
+    "featured": true
+  },
+  {
+    "id": "v2",
+    "title": "Neon Nights",
+    "artist": "Echo Valley",
+    "format": "Vinyl LP",
+    "genre": "Synthwave",
+    "price": 3800,
+    "compareAt": 4500,
+    "cover": "v2.svg",
+    "description": "Driving synth lines and late-night basslines inspired by empty highways and city lights seen through a car window at 2am.",
+    "details": ["180g translucent vinyl", "Standard sleeve", "Includes digital download code", "8 tracks, 41 minutes"],
+    "featured": true
+  },
+  {
+    "id": "v3",
+    "title": "Golden Hour",
+    "artist": "Mira Solis",
+    "format": "Vinyl LP",
+    "genre": "Indie Folk",
+    "price": 3500,
+    "compareAt": null,
+    "cover": "v3.svg",
+    "description": "Warm acoustic arrangements and close harmonies recorded live in a single room over three golden-lit evenings.",
+    "details": ["180g vinyl", "Gatefold sleeve with lyric insert", "Includes digital download code", "10 tracks, 44 minutes"],
+    "featured": true
+  },
+  {
+    "id": "v4",
+    "title": "Basement Sessions",
+    "artist": "The Low End",
+    "format": "Vinyl LP",
+    "genre": "Jazz",
+    "price": 4200,
+    "compareAt": null,
+    "cover": "v4.svg",
+    "description": "Raw, unedited jazz trio recordings — upright bass, brushed drums, and a Rhodes piano, captured in a single take each.",
+    "details": ["180g vinyl", "Standard sleeve", "Includes digital download code", "7 tracks, 52 minutes"],
+    "featured": false
+  },
+  {
+    "id": "v5",
+    "title": "Analog Dreams",
+    "artist": "The Static Collective",
+    "format": "Vinyl LP",
+    "genre": "Ambient",
+    "price": 3600,
+    "compareAt": null,
+    "cover": "v5.svg",
+    "description": "Textured ambient soundscapes built entirely from tape loops, modular synths, and field recordings collected over a year.",
+    "details": ["180g vinyl", "Gatefold sleeve", "Includes digital download code", "6 tracks, 47 minutes"],
+    "featured": false
+  },
+  {
+    "id": "v6",
+    "title": "Lo-Fi Hours",
+    "artist": "Nightshade Radio",
+    "format": "Vinyl LP",
+    "genre": "Lo-Fi",
+    "price": 2900,
+    "compareAt": 3400,
+    "cover": "v6.svg",
+    "description": "Mellow beats and jazzy samples for studying, working, or winding down — a steady, unhurried groove from start to finish.",
+    "details": ["180g vinyl", "Standard sleeve", "Includes digital download code", "12 tracks, 35 minutes"],
+    "featured": true
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#0d0618"/>
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0f2e"/>
+      <stop offset="100%" stop-color="#0d0618"/>
+    </linearGradient>
+    <linearGradient id="sun2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5fa2"/>
+      <stop offset="100%" stop-color="#E8A33D"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#sky2)"/>
+  <circle cx="300" cy="280" r="110" fill="url(#sun2)"/>
+  <rect y="280" width="600" height="320" fill="#0d0618"/>
+  <g stroke="#4de8e0" stroke-width="2" opacity="0.6">
+    <line x1="0" y1="340" x2="600" y2="340"/>
+    <line x1="0" y1="400" x2="600" y2="400"/>
+    <line x1="0" y1="470" x2="600" y2="470"/>
+    <line x1="0" y1="560" x2="600" y2="560"/>
+    <line x1="300" y1="280" x2="30" y2="600"/>
+    <line x1="300" y1="280" x2="570" y2="600"/>
+    <line x1="300" y1="280" x2="150" y2="600"/>
+    <line x1="300" y1="280" x2="450" y2="600"/>
+  </g>
+
+</svg>

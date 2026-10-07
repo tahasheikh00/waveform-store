@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waveform — Checkout</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/logo.svg" alt="Waveform"></a>
+    <nav class="main-nav">
+      <a href="index.html">Shop</a>
+      <a href="cart.html" class="cart-link">Cart <span class="cart-count" data-cart-count>0</span></a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="section-title" style="margin-top:40px;">Checkout</h1>
+  <div id="checkout-root">
+    <div class="cart-layout">
+      <div>
+        <form id="checkout-form">
+          <div class="field">
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" required>
+          </div>
+          <div class="field">
+            <label for="email">Email (optional)</label>
+            <input type="email" id="email">
+          </div>
+          <div class="field">
+            <label for="address">Delivery address</label>
+            <textarea id="address" rows="3" required></textarea>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <input type="text" id="city" required>
+          </div>
+          <div class="field">
+            <label for="postal">Postal code (optional)</label>
+            <input type="text" id="postal">
+          </div>
+          <div class="field">
+            <label for="notes">Order notes (optional)</label>
+            <textarea id="notes" rows="2"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Place order</button>
+          <p class="form-note" style="margin-top:12px;">Cash on Delivery — pay when your order arrives.</p>
+        </form>
+      </div>
+      <aside id="checkout-summary"></aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Waveform Records</span>
+    <span>Cash on delivery · Ships in 3–5 days</span>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

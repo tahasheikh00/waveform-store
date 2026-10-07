@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waveform — Cart</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/logo.svg" alt="Waveform"></a>
+    <nav class="main-nav">
+      <a href="index.html">Shop</a>
+      <a href="cart.html" class="cart-link active">Cart <span class="cart-count" data-cart-count>0</span></a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="section-title" style="margin-top:40px;">Your cart</h1>
+  <div class="cart-layout">
+    <div id="cart-page-body"></div>
+    <aside id="cart-summary"></aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Waveform Records</span>
+    <span>Cash on delivery · Ships in 3–5 days</span>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/cart-render.js"></script>
+</body>
+</html>
